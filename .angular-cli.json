@@ -19,9 +19,16 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "css/tagmanager.scss",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/typeahead.js/dist/bloodhound.js",
+        "../node_modules/typeahead.js/dist/typeahead.bundle.js",
+        "../node_modules/typeahead.js/dist/typeahead.jquery.js",
+        "assets/tagmanager.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
